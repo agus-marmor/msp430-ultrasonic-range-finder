@@ -44,6 +44,16 @@ Currently finalizing the schematic capture and board layout for the main Junior 
 *   Integrating the physical dimensions of the LCD display, ultrasonic sensor, battery holder, and previously designed regulator breakout boards to optimize component placement.
 *   Routing traces for the MSP430, BS170 MOSFET, and peripheral sensors over a dedicated ground plane.
 
+## Repository Contents
+*   `/Documentation`
+    *   `EEL3926L_Lab_Manual.pdf` – Official course lab manual detailing specifications and safety rules.
+    *   `annotated-Bill_of_Materials.pdf` – Itemized component list and vendor sourcing data.
+    *   `Lab 6 - Datasheet and Research.docx` – Complete pinout and peripheral mapping matrix, modified header code, and schematic for project board.
+    *   `Week4 - Agustin Marmor.pdf` – Schematic capture and final board layout diagrams for the voltage regulator.
+    *   `Junior_Design.h` - Modified header file to include the connections required by the board
+*   `/Reports`
+    *   `WeBench_and_Prototyping_Report.pdf` – Combined lab report containing design calculations, WEBENCH schematics, efficiency plots, and oscilloscope screenshots for both regulators.
+
 ## Upcoming Milestones
 1.  **Firmware Integration (Lab 8):** Prototyping bare-metal C code on the MSP-EXP430G2ET to interface the ultrasonic sensor and I2C display.
 2.  **Fabrication & Assembly (Labs 9 & 10):** Applying solder paste via stencils, utilizing a reflow oven for surface-mount components, and manually soldering through-hole headers.
